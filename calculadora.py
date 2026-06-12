@@ -8,7 +8,7 @@ def multiplicacion(a, b):
     if b == 0:
         return 0
     else:
-        return a + multiplicacion(a, b - 1)
+        return a + multiplicacion(a, b - 2)
 
 def division(a, b):
     if b == 0:
